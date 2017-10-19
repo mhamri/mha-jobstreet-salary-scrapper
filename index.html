@@ -17,20 +17,35 @@
         <h1>Jobstreet salary report 2017</h1>
         <h2> What this page is showing?</h2>
         <p>
-            this page is showing all the salaries that comes up if you search for a specific term. ofcourse this way of visualizing of the data is not accurate.
-            for example for php you can find salaries that over 24k MYR but when you dig in and try to find what kind of job it is that need php, you end up with jobs like CTO or data scientist that one part of requirment is php. but it's not php developer.
-            in other word knowing php doesn't lead you to have a data scientist job. 
-            <br/>
-            anyway if you wonder what job lead to this much of salary, you can visit the github repository and view the content of report folder. all the jobs and related salaries are stored in the json format
+            this page is showing all the salaries that comes up if you search for a specific term. ofcourse this way of visualizing of
+            the data is not accurate. for example for php you can find salaries that are over 24k MYR but when you dig in
+            and try to find what kind of job needs php, you end up with jobs like CTO or data scientist that one part of
+            requirment is php. but it's not really related to php or you by knowing php you can't end up on qualifying for
+            that job. in other word knowing php doesn't lead you to have a data scientist job.
+            <br/> anyway if you wonder what job lead to this much of salary, you can visit the github repository and view the
+            content of
+            <b>report</b> folder. all the jobs and related salaries are stored in the json format
         </p>
 
         <h2>How to use the charts</h2>
         <p>
             first learn about the axis.
-            <b>the x axis</b>: showing the salary range, since jobstreet is showing the salaries in range, i decided to keep it as it is.
+            <b>the x axis</b>: showing the salary range, since jobstreet is showing the salaries in range, i decided to keep
+            it as it is.
+            <br>
+
             <b>the y axis at left side</b>: it is related to salary and it's in MYR
-            <b>the y axis at the right side: </b> it's related to histogram, the histogram is showing how many time a salary range observed in the report. it comes handy to know what is the most of the salaries for specific technology.
-            <br>   
+            <br>
+            <b>the y axis at the right side: </b> it's related to histogram only, the histogram is showing how many time a salary
+            range observed in the report. it comes handy to know what is the most of the salaries for specific technology.
+            Despite it's not the most accurate calculation, but it's the fastest way that I can show the range and occurance.
+
+            <br>
+            please note that when reading the <b>frequency-min</b> and <b>frequency-max</b>, you should read the related boundry related to it. <br>
+            for example if you are reading about frequency-max on 4000-8000 node. you should ignore the 4000 because it's related to the min boundry. <br>
+            in other hand, when you are reading frequency-min you should consider about 4000 and ignore 8000. <br>
+            another note about histogram chart is that, histogram on x-axis is starting from a point and end up in another point. that's a salary range! meanning any salary in that range resulted to the value on y-axis!   
+
         </p>
     </div>
     <a href="https://github.com/mhamri/mha-jobstreet-salary-scrapper">
