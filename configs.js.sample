@@ -1,0 +1,6 @@
+module.exports = {
+    username: 'YOUR_USERNAME',
+    password: 'YOUR_PASSWORD',
+    headless: false,
+    searchKeywords:['laravel', 'python', 'C#', 'php','nodejs', 'asp.net','aws','azure']
+}

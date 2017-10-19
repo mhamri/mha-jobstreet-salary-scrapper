@@ -1,0 +1,682 @@
+[
+  {
+    "min": "3500",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-cnet-3433184?fr=21"
+  },
+  {
+    "min": "3200",
+    "max": "6400",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineers-aspnet-c-junior-senior-3403423?fr=21"
+  },
+  {
+    "min": "2500",
+    "max": "3500",
+    "link": "https://www.jobstreet.com.my/en/job/c-aspnet-e-commerce-web-developer-3401828?fr=21"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-php-c-aspnet-3431360?fr=21"
+  },
+  {
+    "min": "3200",
+    "max": "6400",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineers-aspnet-c-junior-senior-3403692?fr=21"
+  },
+  {
+    "min": "4000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-software-engineer-c-net-mvc-mssql-jbsingapore-3407873?fr=21"
+  },
+  {
+    "min": "3500",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-aspnet-c-mandarin-speaking-junior-senior-3406819?fr=21"
+  },
+  {
+    "min": "3000",
+    "max": "4000",
+    "link": "https://www.jobstreet.com.my/en/job/programmer-anyone-skill-on-java-eclipse-android-studio-visual-studio-c-php-3404039?fr=21"
+  },
+  {
+    "min": "6000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/c-aspnet-developer-and-software-engineer-web-3404927?fr=21"
+  },
+  {
+    "min": "3500",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/urgent-hiring-software-engineer-c-php-3415352?fr=21&src=16"
+  },
+  {
+    "min": "4000",
+    "max": "7500",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-javacnet-salary-up-to-rm-75k-3413392?fr=21&src=16"
+  },
+  {
+    "min": "5000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/assistant-software-manager-team-lead-c-net-mvcms-sql-3389138?fr=21&src=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-javaphpc-open-for-it-fresh-grads-too-3412623?fr=21&src=16"
+  },
+  {
+    "min": "2200",
+    "max": "3100",
+    "link": "https://www.jobstreet.com.my/en/job/junior-c-programmer-3411030?fr=21&src=16"
+  },
+  {
+    "min": "5000",
+    "max": "7200",
+    "link": "https://www.jobstreet.com.my/en/job/system-developer-cjavasql-3409140?fr=21&src=16"
+  },
+  {
+    "min": "4000",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/caspnet-developer-3406903?fr=21&src=16"
+  },
+  {
+    "min": "3500",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/c-programmer-3405899?fr=21&src=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/programmer-3423833?fr=21&src=16"
+  },
+  {
+    "min": "3000",
+    "max": "4200",
+    "link": "https://www.jobstreet.com.my/en/job/software-design-engineer-3406732?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/assistant-manager-it-cum-programmer-3406102?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "600",
+    "max": "900",
+    "link": "https://www.jobstreet.com.my/en/job/for-it-or-computing-student-internship-3432790?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "6000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/software-programmer-3416927?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4500",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-software-engineer-3399747?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "4200",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-3432323?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/web-developer-3432045?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "4200",
+    "link": "https://www.jobstreet.com.my/en/job/software-development-engineer-3404370?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-jb-3423340?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/net-developers-all-levels-3430718?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2000",
+    "max": "3000",
+    "link": "https://www.jobstreet.com.my/en/job/analyst-programmer-3430483?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4500",
+    "max": "9000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-net-software-engineer-developer-3405422?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/mobile-app-developer-3420534?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-software-developers-cum-team-lead-3430193?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "6000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-pure-objective-c-developer-mobile-application-3420885?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-php-net-based-in-selangorkl-6068690/origin/sg?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-firmware-programming-engineer-3430022?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-software-development-engineer-3430015?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4500",
+    "max": "6300",
+    "link": "https://www.jobstreet.com.my/en/job/ess-developer-3414156?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-3411508?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-software-engineer-3414170?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2600",
+    "max": "3000",
+    "link": "https://www.jobstreet.com.my/en/job/it-officer-infrastructure-hardware-3429081?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-c-language-skills-position-based-in-kuala-lumpur-3428643?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2800",
+    "max": "3900",
+    "link": "https://www.jobstreet.com.my/en/job/net-web-back-end-developer-3413040?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/web-programmer-3412363?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "5500",
+    "link": "https://www.jobstreet.com.my/en/job/mobile-software-developer-3400787?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/software-programmer-executive-3412497?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-software-developer-programmer-3427861?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/it-programmer-software-engineer-system-developer-3403432?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-senior-software-developer-3420273?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/back-end-developer-nodejs-3421219?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3410890?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-net-full-stack-developer-3426713?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-programmer-3406308?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3425630?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/net-developer-mid-valley-3424576?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2600",
+    "max": "3300",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-programmer-3424472?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-developer-3397473?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2800",
+    "max": "3500",
+    "link": "https://www.jobstreet.com.my/en/job/programmer-3423599?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "6000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-software-engineer-mobile-application-3396440?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/it-engineer-juniorsenior-3423977?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-senior-junior-3423943?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2000",
+    "max": "3500",
+    "link": "https://www.jobstreet.com.my/en/job/application-engineer-chinese-speaking-3418161?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5500",
+    "max": "7500",
+    "link": "https://www.jobstreet.com.my/en/job/lead-programmer-3408882?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-3423009?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3422900?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "4000",
+    "link": "https://www.jobstreet.com.my/en/job/junior-programmer-3407489?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/analyst-net-programmer-3406553?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2150",
+    "max": "3000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3399407?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000.00",
+    "max": "6000.00",
+    "link": "https://www.jobstreet.com.my/en/job/web-application-developer-3391208?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2700",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/programmer-software-developer-fresh-experienced-3413713?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "8500",
+    "link": "https://www.jobstreet.com.my/en/job/senior-project-officer-digital-solutions-3414591?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3400",
+    "max": "3600",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-fresh-graduates-are-welcome-3414545?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2000",
+    "max": "3200",
+    "link": "https://www.jobstreet.com.my/en/job/analyst-programmer-3413791?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2800",
+    "max": "3000",
+    "link": "https://www.jobstreet.com.my/en/job/application-engineer-3413385?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-position-based-in-kuala-lumpur-3410603?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "6000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/it-devops-enginner-3410471?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "6500",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-3409852?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/application-developer-6011940/origin/sg?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3384888?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-back-end-3407626?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "5500",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-cc-firmware-3406545?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "3500",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3405754?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4500",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/backend-frontend-developer-chinese-speaking-based-in-bangsar-south-3404755?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "4000",
+    "link": "https://www.jobstreet.com.my/en/job/analyst-programmer-3426091?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "6000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/web-developer-3417741?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/specialistseniorengineer-computer-integrated-manufacturing-cim-3432778?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/application-engineer-otc-3432662?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4780",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineering-3432405?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "12000",
+    "max": "24000",
+    "link": "https://www.jobstreet.com.my/en/job/data-scientist-3432056?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3200",
+    "max": "6400",
+    "link": "https://www.jobstreet.com.my/en/job/fintech-developers-3403440?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "5600",
+    "link": "https://www.jobstreet.com.my/en/job/analyst-programmer-3424068?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-mobile-apps-cloud-3423725?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/software-developer-3430797?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "7000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/sofware-developer-microsoft-dynamics-based-in-cyberjaya-3430764?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2000",
+    "max": "3000",
+    "link": "https://www.jobstreet.com.my/en/job/system-engineer-3430478?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2800",
+    "max": "5600",
+    "link": "https://www.jobstreet.com.my/en/job/web-developer-aspnet-3429757?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4500",
+    "max": "6500",
+    "link": "https://www.jobstreet.com.my/en/job/lecturer-cum-program-leader-information-technology-3430210?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "5500",
+    "link": "https://www.jobstreet.com.my/en/job/web-mobile-application-developer-3415840?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "8000",
+    "max": "15000",
+    "link": "https://www.jobstreet.com.my/en/job/u3d-unity3d-game-client-3420700?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "5500",
+    "link": "https://www.jobstreet.com.my/en/job/operations-research-engineer-3421050?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2800",
+    "max": "4000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3414117?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/it-programmer-project-manager-3402512?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/junior-software-engineer-3403424?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/sisensepower-bi-sql-developer-3428923?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-rd-3412997?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/software-test-engineer-3428101?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4500",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-it-programmer-software-project-manager-developer-lead-3403410?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "8000",
+    "max": "11200",
+    "link": "https://www.jobstreet.com.my/en/job/principal-engineer-6091491/origin/sg?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "8500",
+    "link": "https://www.jobstreet.com.my/en/job/net-developer-3427113?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "4200",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3426175?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "3500",
+    "link": "https://www.jobstreet.com.my/en/job/it-executive-application-support-development-3425956?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3800",
+    "max": "4200",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3425692?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineers-fresh-grad-junior-level-3425532?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/php-programmer-3424826?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "800",
+    "max": "1200",
+    "link": "https://www.jobstreet.com.my/en/job/for-computerit-students-internship-3424683?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/mes-developer-3416194?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "7000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/assistant-project-manager-ref-40976-3423684?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "4500",
+    "link": "https://www.jobstreet.com.my/en/job/it-analyst-executive-engineer-3421101?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5500",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-software-engineer-3407829?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/uber-like-high-income-professional-freelance-trainer-recruiter-consultant-3422832?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "6000",
+    "max": "10000",
+    "link": "https://www.jobstreet.com.my/en/job/system-analyst-net-3422089?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "6500",
+    "link": "https://www.jobstreet.com.my/en/job/ionic-apps-developer-3391770?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/game-programmerunityunreal-engine-3419563?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "3200",
+    "link": "https://www.jobstreet.com.my/en/job/it-programmer-3419244?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5500",
+    "max": "11000",
+    "link": "https://www.jobstreet.com.my/en/job/sn-engineer-manager-embedded-software-3408507?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "4200",
+    "link": "https://www.jobstreet.com.my/en/job/gis-software-developer-3416179?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/web-developer-full-stackstationed-in-malaysia-kl-6073215/origin/sg?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "8000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3415229?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "7000",
+    "link": "https://www.jobstreet.com.my/en/job/net-programmer-3414793?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "5000",
+    "link": "https://www.jobstreet.com.my/en/job/it-assistant-officerofficer-mes-support-3412999?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "2500",
+    "max": "3500",
+    "link": "https://www.jobstreet.com.my/en/job/quantitative-trading-analyst-3410421?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "4000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/software-engineer-3407517?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "8000",
+    "max": "10000",
+    "link": "https://www.jobstreet.com.my/en/job/senior-net-developer-3407411?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3000",
+    "max": "6000",
+    "link": "https://www.jobstreet.com.my/en/job/specialistseniorengineer-computer-integrated-manufacturing-cim-3406761?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "3500",
+    "max": "6500",
+    "link": "https://www.jobstreet.com.my/en/job/web-application-developer-ref-1077605-3406378?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "5000",
+    "max": "10000",
+    "link": "https://www.jobstreet.com.my/en/job/back-end-web-developer-3406091?fr=21&src=16&srcr=16"
+  },
+  {
+    "min": "7000",
+    "max": "11000",
+    "link": "https://www.jobstreet.com.my/en/job/web-application-developer-3405472?fr=21&src=16&srcr=16"
+  }
+]

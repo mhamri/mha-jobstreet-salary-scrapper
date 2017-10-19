@@ -1,0 +1,17 @@
+{
+  "name": "mha-jobstreet-salary-crawler-pupteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^2.0.1",
+    "histogramjs": "0.0.1",
+    "jsonfile": "^4.0.0",
+    "puppeteer": "^0.12.0"
+  }
+}
