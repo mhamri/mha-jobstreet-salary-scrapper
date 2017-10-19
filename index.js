@@ -122,22 +122,22 @@ $(function () {
                                 data: histogramMin,
                                 borderColor: 'rgba(153, 102, 255, 0.2)',
                                 backgroundColor: 'rgba(153, 102, 255, 0.2)'
-                               
-                               
+
+
                             },
                             {
                                 yAxisID: 'right-y-axis',
                                 label: "frequency-max",
                                 data: histogramMax,
-                                borderColor:'rgba(75, 192, 192, 1)',
-                                backgroundColor:'rgba(75, 192, 192, 1)'
+                                borderColor: 'rgba(75, 192, 192, 1)',
+                                backgroundColor: 'rgba(75, 192, 192, 1)'
                             },
                         ]
                     },
                     options: {
                         tooltips: {
                             intersect: false,
-                            titleFontSize:20,
+                            titleFontSize: 20,
                             bodyFontSize: 20,
                             callbacks: {
                                 title: function (tooltipItem, data) {
@@ -147,7 +147,35 @@ $(function () {
                                     var labelParts = label.split('-');
                                     var minOrMax = labelParts[labelParts.length - 1];
                                     var result = "";
-                                    debugger;
+                                    if (labelParts[0] == "frequency") {
+                                        debugger;
+                                        var datapool = data.datasets[tooltip.datasetIndex];
+                                        var searchIndex = tooltip.index;
+                                        var lowerBoundry = 0, upperBoundry = 0;
+                                        while (datapool.data[searchIndex] && datapool.data[searchIndex].y && datapool.data[searchIndex].y != 0) {
+                                            searchIndex--;
+                                            if (datapool.data[searchIndex] && datapool.data[searchIndex].y == 0) {
+                                                lowerBoundry = datapool.data[searchIndex].x;
+                                            }
+                                        }
+                                        var searchIndex = tooltip.index;
+                                        while (datapool.data[searchIndex] && datapool.data[searchIndex].y != 0) {
+                                            searchIndex++;
+                                            if (datapool.data[searchIndex] && datapool.data[searchIndex].y == 0) {
+                                                upperBoundry = datapool.data[searchIndex].x;
+                                            }
+                                        }
+
+                                        if (lowerBoundry != 0 && upperBoundry == 0) {
+                                            result += '>=' + lowerBoundry + ' | ';
+                                        }
+                                        else if (lowerBoundry == 0 && upperBoundry != 0) {
+                                            result += '<=' + upperBoundry + ' | ';
+                                        }
+                                        else {
+                                            result += lowerBoundry + ' - ' + upperBoundry + ' | ';
+                                        }
+                                    }
                                     switch (minOrMax) {
                                         case "min":
                                             result += tooltip.xLabel.split('-')[0]
@@ -157,11 +185,11 @@ $(function () {
                                             break;
 
                                         default:
-                                            result+= tooltip.xLabel;
+                                            result += tooltip.xLabel;
                                             break;
                                     }
 
-                                    if (label=="max-avg" || label=="min-avg"){
+                                    if (label == "max-avg" || label == "min-avg") {
                                         return "";
                                     }
 
