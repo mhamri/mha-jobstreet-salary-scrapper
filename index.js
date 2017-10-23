@@ -20,9 +20,13 @@ $(function () {
             var language, reportDate, chartid;
             [reportDate, language, chartid] = decomposeUrl(reports[i]);
             $("#main").append(
-                "<div>" +
+                "<div class='container'>" +
                 "<h2>" + language + " - " + reportDate + "</h2>" +
                 "<canvas id='" + chartid + "' width='400 height='400'></canvas>" +
+                "<div class='row'>" +
+                "<div class='col-6'><canvas id='" + chartid + "-frequency-min' ></canvas></div>" +
+                "<div class='col-6'><canvas id='" + chartid + "-frequency-max' ></canvas></div>" +
+                "</div>" +
                 "</div>"
             );
 
@@ -30,6 +34,8 @@ $(function () {
                 var language, reportDate, chartid;
                 [reportDate, language, chartid] = decomposeUrl(decodeURIComponent(this.url));
 
+                window.mhajssc = window.mhajssc || {};
+                
 
                 var min = [], max = [], labels = [];
                 data = data.sort(function (first, second) {
@@ -40,41 +46,72 @@ $(function () {
                     if (a == b) return 0;
                 });
 
+                var minimumSalary=Infinity, maximumSalary=-1;
                 for (var j = 0; j < data.length; j++) {
                     var salary = data[j];
                     min.push(Number(salary.min));
                     max.push(Number(salary.max));
                     labels.push(salary.min + "-" + salary.max);
+                    if (Number(salary.min )< minimumSalary){
+                        minimumSalary= Number(salary.min);
+                    }
+                    if (Number(salary.max) > maximumSalary){
+                        maximumSalary= Number(salary.max);
+                    }
                 }
 
-
-
-                var linspace = function linspace(a, b, n) {
-                    if (typeof n === "undefined") n = Math.max(Math.round(b - a) + 1, 1);
-                    if (n < 2) { return n === 1 ? [a] : []; }
-                    var i, ret = Array(n);
-                    n--;
-                    for (i = n; i >= 0; i--) { ret[i] = (i * b + (n - i) * a) / n; }
+                var linspace = function linspace(lowerRange, upperRange, divideBy) {
+                    if (typeof divideBy === "undefined") divideBy = Math.max(Math.round(upperRange - lowerRange) + 1, 1);
+                    if (divideBy < 2) { return divideBy === 1 ? [lowerRange] : []; }
+                    var i, ret = Array(divideBy);
+                    divideBy--;
+                    for (i = divideBy; i >= 0; i--) { ret[i] = Math.round((i * upperRange + (divideBy - i) * lowerRange) / divideBy); }
                     return ret;
                 }
-
+                var frequency_min_lable=linspace(minimumSalary, maximumSalary,30);
                 var histogramMin = histogram({
                     data: min,
-                    bins: min
+                    bins: frequency_min_lable
+                });
+                
+                var chart = $("#"+chartid + '-frequency-min');
+                window.mhajssc[chartid + '-frequency-min']= new Chart(chart,{
+                    type:'line',
+                    data:{
+                        labels: frequency_min_lable,
+                        datasets:[{
+                            label: "frequency-min",
+                            data: histogramMin,
+                            borderColor: 'rgba(255, 99, 132, 0.2)',
+                            backgroundColor: 'rgba(255, 99, 132, 0.2)'
+                        }]
+                    }
                 });
 
+                var frequency_max_lable=linspace(minimumSalary, maximumSalary,30);
                 var histogramMax = histogram({
                     data: max,
-                    bins: max
+                    bins: frequency_max_lable
                 });
 
+                var chart = $("#"+chartid + '-frequency-max');
+                window.mhajssc[chartid + '-frequency-max']= new Chart(chart,{
+                    type:'line',
+                    data:{
+                        labels: frequency_min_lable,
+                        datasets:[{
+                            label: "frequency-max",
+                            data: histogramMax,
+                            borderColor: 'rgba(75, 192, 192, 0.2)',
+                            backgroundColor: 'rgba(75, 192, 192, 0.2)'
+                        }]
+                    }
+                });
 
                 var minAvg = calculateAverage(min);
                 var maxAvg = calculateAverage(max);
 
-                window.mhajssc = window.mhajssc || {};
                 var chart = $('#' + chartid);
-
                 window.mhajssc[chartid] = new Chart(chart, {
 
                     type: 'line',
@@ -115,23 +152,7 @@ $(function () {
                                 borderColor: 'rgba(75, 192, 192, 1)',
                                 backgroundColor: 'rgba(75, 192, 192, 1)'
 
-                            },
-                            {
-                                yAxisID: 'right-y-axis',
-                                label: "frequency-min",
-                                data: histogramMin,
-                                borderColor: 'rgba(153, 102, 255, 0.2)',
-                                backgroundColor: 'rgba(153, 102, 255, 0.2)'
-
-
-                            },
-                            {
-                                yAxisID: 'right-y-axis',
-                                label: "frequency-max",
-                                data: histogramMax,
-                                borderColor: 'rgba(75, 192, 192, 1)',
-                                backgroundColor: 'rgba(75, 192, 192, 1)'
-                            },
+                            }
                         ]
                     },
                     options: {
@@ -148,7 +169,7 @@ $(function () {
                                     var minOrMax = labelParts[labelParts.length - 1];
                                     var result = "";
                                     if (labelParts[0] == "frequency") {
-                                        debugger;
+
                                         var datapool = data.datasets[tooltip.datasetIndex];
                                         var searchIndex = tooltip.index;
                                         var lowerBoundry = 0, upperBoundry = 0;
@@ -203,12 +224,6 @@ $(function () {
                                 type: 'linear',
                                 position: 'left',
 
-                            }, {
-                                id: 'right-y-axis',
-                                type: 'linear',
-                                position: 'right',
-                                display: true,
-                                labelString: 'frequnecy'
                             }]
                         }
                     }
