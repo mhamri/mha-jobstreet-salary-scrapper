@@ -19,5 +19,5 @@ to run this scrapper:
 * then open **index.html**
 
 ## Contribute Please!
-if you have any suggestion, commend or contribution please contact me in here or email me `mha-salary-scrapper[atsign!!!]mhamri.33mail.com`
+if you have any suggestion, comment or contribution please open an issue
  
