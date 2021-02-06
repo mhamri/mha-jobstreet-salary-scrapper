@@ -12,6 +12,6 @@
     "await-to-js": "^2.0.1",
     "histogramjs": "0.0.1",
     "jsonfile": "^4.0.0",
-    "puppeteer": "^0.12.0"
+    "puppeteer": "^1.13.0"
   }
 }
